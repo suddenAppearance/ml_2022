@@ -1,0 +1,26 @@
+[tool.poetry]
+name = "ml-2022"
+version = "0.1.0"
+description = ""
+authors = ["sudden_appearance <kuz.damir.01@gmail.com>"]
+readme = "README.md"
+packages = [{include = "ml_2022"}]
+
+[tool.poetry.dependencies]
+python = "3.10.4"
+numpy = "^1.23.3"
+opencv-python = "^4.6.0.66"
+httpx = "^0.23.0"
+matplotlib = "^3.6.0"
+jupyter = "^1.0.0"
+youtube_dl = "2020.12.2"
+pafy = "^0.5.5"
+scipy = "^1.9.1"
+scikit-image = "^0.19.3"
+pandas = "^1.5.0"
+tabulate = "^0.8.10"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
