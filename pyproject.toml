@@ -21,6 +21,7 @@ pandas = "^1.5.0"
 tabulate = "^0.8.10"
 scikit-learn = "^1.1.2"
 pygame = "^2.1.2"
+ipyleaflet = "^0.17.2"
 
 
 [build-system]
